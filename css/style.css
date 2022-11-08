@@ -2886,7 +2886,7 @@ color: #18191d;
         margin: 30px auto 30px auto;
     }
     .section-padding h1 {
-        font-size: 45px;
+        font-size: 40px;
     }
     .testimonials .testimonials-box {
         padding: 40px 20px;
@@ -3055,28 +3055,13 @@ color: #18191d;
 
     .row.mobile {
         display: initial;
+
     }
 
     div.col-md-7.offset-md-1.mt-45 {
         padding-left: 50px;
     }
 }
-
-
-@media (max-width: 767px) {
-.section-padding {
-    padding: 0 0;
-}
-
-}
-
-@media (max-width: 428px) {
-    .section-padding {
-        padding: 30px 0;
-    }
-    
-    }
-
 
 a.under-line {
     border-bottom: 3px solid #0f2870
@@ -3094,18 +3079,62 @@ a.under-line:hover {
     padding-bottom: 60px;
 }
 
-.role h1, .role h5 {
+.role h1,
+.role h5 {
     color: #18191d
 }
 
 .role h6 {
-    
-        display: inline-block;
-        font-weight: 700;
-        font-size: 12px;
-        color: #868a9b;
-        margin-bottom: 20px;
-        text-transform: uppercase;
-        letter-spacing: 2px;
-    
+
+    display: inline-block;
+    font-weight: 700;
+    font-size: 12px;
+    color: #868a9b;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+
+}
+
+@media (max-width: 767px) {
+    .section-padding {
+        padding: 0 0;
+    }
+
+}
+
+@media (max-width: 428px) {
+    .section-padding {
+        padding: 30px 0;
+    }
+
+    .owl-carousel .owl-item a img {
+        display: block;
+        width: 33%;
+        margin: 0 auto;
+    }
+
+}
+
+@media (max-width: 767px) {
+    .role h1 {
+        font-size: 40px;
+    }
+
+    .logo-icon span {
+        font-weight: 900;
+        font-size: 1.75rem;
+    }
+
+    .section-padding h6,
+    .role h6 {
+
+        margin-bottom: 0px;
+
+    }
+
+    #services>div>div.row.mb-45 {
+        margin-bottom: 0px;
+    }
+
 }
