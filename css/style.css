@@ -2886,7 +2886,7 @@ color: #18191d;
         margin: 30px auto 30px auto;
     }
     .section-padding h1 {
-        font-size: 40px;
+        font-size: 2.25rem;
     }
     .testimonials .testimonials-box {
         padding: 40px 20px;
@@ -3118,7 +3118,8 @@ a.under-line:hover {
 
 @media (max-width: 767px) {
     .role h1 {
-        font-size: 40px;
+        font-size: 2.25rem;
+        line-height: 1.2em;
     }
 
     .logo-icon span {
