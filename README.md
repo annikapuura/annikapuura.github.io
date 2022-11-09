@@ -1,1 +1,1 @@
-# hello and welcome to https://.annikapuura.com ;)
+# hello and welcome to https://annikapuura.com ;)
