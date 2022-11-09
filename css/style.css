@@ -3096,6 +3096,21 @@ a.under-line:hover {
 
 }
 
+
+
+.blog .item {
+    background: #fff;
+}
+
+.blog .post-cont {
+    padding: 30px 30px;
+}
+
+.bg-white {
+    background: #fff;
+    padding: 30px;
+}
+
 @media (max-width: 767px) {
     .section-padding {
         padding: 0 0;
@@ -3112,6 +3127,10 @@ a.under-line:hover {
         display: block;
         width: 33%;
         margin: 0 auto;
+    }
+
+    .bg-white {
+        padding: 15px;
     }
 
 }
@@ -3139,3 +3158,5 @@ a.under-line:hover {
     }
 
 }
+
+
