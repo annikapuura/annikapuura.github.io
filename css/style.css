@@ -43,7 +43,7 @@ body {
 }
 body {
     font-family: 'Syne', sans-serif;
-    color: #868a9b;
+    color: #4e515c;
     font-size: 18px;
     line-height: 1.75em;
     font-weight: 400;
@@ -321,7 +321,7 @@ input[type="checkbox"] {
 /* list style */
 .ullist {
     display: grid;
-    font-size: 16px;
+    font-size: 18px;
 }
 .ullist ul {
     position: relative;
